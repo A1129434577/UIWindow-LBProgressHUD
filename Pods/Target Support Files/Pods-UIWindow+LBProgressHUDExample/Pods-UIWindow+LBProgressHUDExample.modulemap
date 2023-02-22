@@ -1,0 +1,6 @@
+framework module Pods_UIWindow_LBProgressHUDExample {
+  umbrella header "Pods-UIWindow+LBProgressHUDExample-umbrella.h"
+
+  export *
+  module * { export * }
+}
