@@ -178,7 +178,7 @@
         //使用framework形式
         if (!associateBundleURL) {
             associateBundleURL = [[NSBundle mainBundle] URLForResource:@"Frameworks" withExtension:nil];
-            associateBundleURL = [associateBundleURL URLByAppendingPathComponent:@"UIWindow+LBProgressHUD"];
+            associateBundleURL = [associateBundleURL URLByAppendingPathComponent:@"UIWindow_LBProgressHUD"];
             associateBundleURL = [associateBundleURL URLByAppendingPathExtension:@"framework"];
             NSBundle *associateBunle = [NSBundle bundleWithURL:associateBundleURL];
             associateBundleURL = [associateBunle URLForResource:bundleName withExtension:@"bundle"];
